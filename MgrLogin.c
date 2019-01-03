@@ -1,0 +1,5 @@
+MgrLogin()
+{
+
+	return 0;
+}

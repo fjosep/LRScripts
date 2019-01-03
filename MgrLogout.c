@@ -1,5 +1,0 @@
-MgrLogout()
-{
-
-	return 0;
-}

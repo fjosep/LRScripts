@@ -37,7 +37,7 @@ Action()
 		"*/*");
 
 	web_custom_request("clearSession", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/authentication/clearSession", 
+		"URL=https://{url_web}/time/toa/ui/authentication/clearSession", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 

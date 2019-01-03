@@ -11,7 +11,7 @@ TeamTimeOff()
 		"en-US,en;q=0.9");
 
 	web_custom_request("getPendingAndApprovedRequestsForTeams", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/teamTimeOff/getPendingAndApprovedRequestsForTeams?endDateString=9999-12-31&includeMyPolicyApproverRequests=true&startDateString=1970-01-01", 
+		"URL=https://{url_web}/time/toa/api/teamTimeOff/getPendingAndApprovedRequestsForTeams?endDateString=9999-12-31&includeMyPolicyApproverRequests=true&startDateString=1970-01-01", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 
@@ -20,7 +20,7 @@ TeamTimeOff()
 		LAST);
 
 	web_custom_request("getViolateCoverageForTeams", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/teamTimeOff/getViolateCoverageForTeams?includeMyPolicyApproverRequests=true", 
+		"URL=https://{url_web}/time/toa/ui/teamTimeOff/getViolateCoverageForTeams?includeMyPolicyApproverRequests=true", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 
@@ -29,7 +29,7 @@ TeamTimeOff()
 		LAST);
 
 	web_custom_request("getViolateBlackoutForTeams", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/teamTimeOff/getViolateBlackoutForTeams?includeMyPolicyApproverRequests=true", 
+		"URL=https://{url_web}/time/toa/ui/teamTimeOff/getViolateBlackoutForTeams?includeMyPolicyApproverRequests=true", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 
@@ -38,7 +38,7 @@ TeamTimeOff()
 		LAST);
 
 	web_custom_request("getRequestIssues", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/timeOffRequest/getRequestIssues", 
+		"URL=https://{url_web}/time/toa/api/timeOffRequest/getRequestIssues", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 

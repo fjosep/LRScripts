@@ -11,7 +11,7 @@ MgrConverage()
 		"en-US,en;q=0.9");
 
 	web_custom_request("getTeamCoverage", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/coverage/getTeamCoverage", 
+		"URL=https://{url_web}/time/toa/ui/coverage/getTeamCoverage", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 

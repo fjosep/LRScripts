@@ -11,7 +11,7 @@ MgrReqTO()
 		"en-US,en;q=0.9");
 
 	web_custom_request("getRequestForPersona", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/timeOffRequest/getRequestForPersona?personaId=17273&requestId=10", 
+		"URL=https://{url_web}/time/toa/api/timeOffRequest/getRequestForPersona?personaId=17273&requestId=10", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 
@@ -20,7 +20,7 @@ MgrReqTO()
 		LAST);
 
 	web_custom_request("isBalanceVisible", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/balance/isBalanceVisible?personaId=17273", 
+		"URL=https://{url_web}/time/toa/api/balance/isBalanceVisible?personaId=17273", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 
@@ -29,7 +29,7 @@ MgrReqTO()
 		LAST);
 
 	web_custom_request("getForRequest", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/request-cancellation/getForRequest?requestId=10", 
+		"URL=https://{url_web}/time/toa/ui/request-cancellation/getForRequest?requestId=10", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 
@@ -38,7 +38,7 @@ MgrReqTO()
 		LAST);
 
 	web_custom_request("getPersonaBalanceForPolicy", 
-		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/balance/getPersonaBalanceForPolicy?asOfDate=2019-01-03&personaId=17273&policyId=10018", 
+		"URL=https://{url_web}/time/toa/api/balance/getPersonaBalanceForPolicy?asOfDate=2019-01-03&personaId=17273&policyId=10018", 
 		"Method=OPTIONS", 
 		"Resource=0", 
 		"Referer=https://{url}/", 

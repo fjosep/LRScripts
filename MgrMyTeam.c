@@ -14,7 +14,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/payGroup/getPayGroupsForMyTeams", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t32.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -23,7 +23,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getChoicesByCodeForMyTeams?code=LOCATION", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t33.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -32,7 +32,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getChoicesByCodeForMyTeams?code=ORGLVL1", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t34.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -41,7 +41,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getChoicesByCodeForMyTeams?code=ORGLVL3", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t35.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -50,7 +50,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getChoicesByCodeForMyTeams?code=ORGLVL4", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t36.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -59,7 +59,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getChoicesByCodeForMyTeams?code=ORGLVL2", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t37.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -68,7 +68,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getJobChoicesForMyTeams", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t38.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -77,7 +77,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/laborMetric/getOrgLevels", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t39.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -86,7 +86,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/team/getTeamInfoInRange?endDate=2019-01-03&startDate=2019-01-03", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t40.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -95,7 +95,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/team/getTeamInfoInRange?endDate=2019-01-03&startDate=2019-01-03", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t41.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -104,7 +104,7 @@ MgrMyTeam()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/team/getPagedTeamMembers?employeeNumberFilter=&employeeStatusFilter=ACTIVE&maxResults=16&nameFilter=&pageNumber=0&sortColumn=employee.firstNameLastName&sortDescending=false&teamId=10152", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t42.inf", 
 		"Mode=HTTP", 
 		LAST);

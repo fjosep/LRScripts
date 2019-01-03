@@ -14,7 +14,7 @@ ClickCreateRequest()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/employee/getMyRequestPolicies?endDate=9999-12-31&startDate=2019-01-03", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t12.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -23,7 +23,7 @@ ClickCreateRequest()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/employee/getMyTimeZone?asOfDate=2019-01-03", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t13.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -32,7 +32,7 @@ ClickCreateRequest()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/employee/getMyRequestPolicies?endDate=2019-01-03&startDate=2019-01-03", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t14.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -41,7 +41,7 @@ ClickCreateRequest()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/timeOffRequest/validateRequest", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t15.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -50,7 +50,7 @@ ClickCreateRequest()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/balance/getMyBalanceForPolicy?asOfDate=2019-01-03&policyId=10018", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t16.inf", 
 		"Mode=HTTP", 
 		LAST);

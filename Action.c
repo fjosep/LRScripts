@@ -12,8 +12,8 @@ Action()
 	web_add_auto_header("Accept-Language", 
 		"en-US,en;q=0.9");
 
-	web_url("toa-web-performance-automation-test.apps.mia.ulti.io", 
-		"URL=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+	web_url("{url}", 
+		"URL=https://{url}/", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
@@ -25,13 +25,13 @@ Action()
 		"*/*");
 
 	web_url("app.config.json", 
-		"URL=https://toa-web-performance-automation-test.apps.mia.ulti.io/assets/config/app.config.json", 
+		"URL=https://{url}/assets/config/app.config.json", 
 		"Resource=1", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t2.inf", 
 		LAST);
 
-	/* Request with GET method to URL "https://toa-web-performance-automation-test.apps.mia.ulti.io/favicon.ico" failed during recording. Server response : 404*/
+	/* Request with GET method to URL "https://{url}/favicon.ico" failed during recording. Server response : 404*/
 
 	web_add_header("Accept", 
 		"*/*");
@@ -40,7 +40,7 @@ Action()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/authentication/clearSession", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t3.inf", 
 		"Mode=HTTP", 
 		LAST);

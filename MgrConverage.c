@@ -14,7 +14,7 @@ MgrConverage()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/coverage/getTeamCoverage", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t43.inf", 
 		"Mode=HTTP", 
 		LAST);

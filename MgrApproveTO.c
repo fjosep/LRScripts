@@ -14,7 +14,7 @@ MgrApproveTO()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/teamTimeOff/approveTimeOffRequest?requestId=10&useNewValidation=true", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t30.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -26,7 +26,7 @@ MgrApproveTO()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/teamTimeOff/approveTimeOffRequest?requestId=10&useNewValidation=true", 
 		"Method=POST", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t31.inf", 
 		"Mode=HTTP", 
 		"EncType=application/json;charset=UTF-8", 

@@ -15,7 +15,7 @@ EmpLogin()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/authentication/getCurrentUser", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t6.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -24,7 +24,7 @@ EmpLogin()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/locale/getSupportedLanguages", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t7.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -33,7 +33,7 @@ EmpLogin()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/locale/translations?part=company&lang=en-US", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t8.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -42,7 +42,7 @@ EmpLogin()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/balance/getMyBalances?asOfDate=2019-01-03", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t9.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -51,7 +51,7 @@ EmpLogin()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/employee/checkHasAllowancePolicy", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t10.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -60,7 +60,7 @@ EmpLogin()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/timeOffRequest/getMyUpcoming", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t11.inf", 
 		"Mode=HTTP", 
 		LAST);

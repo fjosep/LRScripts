@@ -14,7 +14,7 @@ EmpLogout()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/ui/authentication/clearSession", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t21.inf", 
 		"Mode=HTTP", 
 		LAST);

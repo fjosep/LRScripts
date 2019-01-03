@@ -14,7 +14,7 @@ History()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/transactions/getYearsByPersona?personaId=17273", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t18.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -23,7 +23,7 @@ History()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/employee/getAllMyBalancePersonaPolicies", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t19.inf", 
 		"Mode=HTTP", 
 		LAST);
@@ -32,7 +32,7 @@ History()
 		"URL=https://toa-performance-automation-test.apps.mia.ulti.io/time/toa/api/transactions/history/myself?isAllPolicies=true&isAllTransactionTypes=true&maxResults=12&pageNumber=0&year=2019", 
 		"Method=OPTIONS", 
 		"Resource=0", 
-		"Referer=https://toa-web-performance-automation-test.apps.mia.ulti.io/", 
+		"Referer=https://{url}/", 
 		"Snapshot=t20.inf", 
 		"Mode=HTTP", 
 		LAST);

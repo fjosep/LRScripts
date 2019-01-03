@@ -1,5 +1,0 @@
-MgrLogin()
-{
-
-	return 0;
-}

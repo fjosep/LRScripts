@@ -1,0 +1,5 @@
+MgrLogout()
+{
+
+	return 0;
+}

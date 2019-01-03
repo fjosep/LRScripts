@@ -1,5 +1,0 @@
-Balances()
-{
-
-	return 0;
-}
